@@ -1,6 +1,6 @@
 ## Contents
 
-### First Term ![image](https://progress-bar.dev/100/?title=Done)
+### First Term ![image](https://progress-bar.dev/20/?title=In_progress)
 
 - [Unit 1: Diploma Prerequisites](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/100/?title=No_Assignments&color=bababa)
 - [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/37.5/)
@@ -10,7 +10,7 @@
 
 ---
 
-### Second Term ![image](https://progress-bar.dev/100/?title=Done&color=ff00ff)
+### Second Term ![image](https://progress-bar.dev/0/?title=staring_soon&color=ff00ff)
 
 - [Unit 6: MCU Fundamentals](Unit_6_MCU_Fundamentals) ![image](https://progress-bar.dev/0/)
 - [Unit 7: MCU Essential Peripherals](Unit_7_MCU_Essential_Peripherals) ![image](https://progress-bar.dev/0/)
@@ -27,4 +27,5 @@
 - [Unit 13: Automotive Protocols](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
 - [Unit 15: RTOS Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
 - [Unit 16: AUTOSAR Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 17: Embedded Linux Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/
+- [Unit 17: Embedded Linux Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
+-[Unit 17: Embedded Linux Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
