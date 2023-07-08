@@ -4,9 +4,9 @@
 
 ### First Term ![image](https://progress-bar.dev/20/?title=In_progress)
 
-- [Unit 1: Diploma Prerequisites](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/100/?title=&color=bababa)
+- [Unit 1: Diploma Prerequisites] ![image](https://progress-bar.dev/100/?title=&color=bababa)
 - [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/100/)
-- [Unit 3: Embedded C](Unit_3_Embedded_C) ![image](https://progress-bar.dev/0/)
+- [Unit 3: Embedded C](Unit_3_Embedded_C) ![image](https://progress-bar.dev/40/)
 - [Unit 4: System Architect](Unit_4_System_Architecture) ![image](https://progress-bar.dev/0/)
 - [Unit 5: First Term Projects](Unit_5_First_Term_Projects) ![image](https://progress-bar.dev/0/)
 
@@ -25,10 +25,11 @@
 
 ### Third Term ![image](https://progress-bar.dev/0/?title=Start_Soon&color=ff00ff)
 
-- [Unit 12: Advanced Topics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 13: Automotive Protocols](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 15: RTOS Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 16: AUTOSAR Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 17: Embedded Linux Basics](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 18: Soft Skills](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
-- [Unit 19: Sensors](https://github.com/Mina-Karam/Master_Embedded_Systems) ![image](https://progress-bar.dev/0/)
+- [Unit 12: Advanced Topics] ![image](https://progress-bar.dev/0/)
+- [Unit 13: Mastering CAN Protocol] ![image](https://progress-bar.dev/0/)
+- [Unit 14: Mastering ARM] ![image](https://progress-bar.dev/0/)
+- [Unit 15: Create Your Owen RTOS] ![image](https://progress-bar.dev/0/)
+- [Unit 16: Design Battern] ![image](https://progress-bar.dev/0/)
+- [Unit 17: ............] ![image](https://progress-bar.dev/0/)
+- [Unit 18: Soft Skills] ![image](https://progress-bar.dev/0/)
+- [Unit 19: Sensors] ![image](https://progress-bar.dev/0/)
