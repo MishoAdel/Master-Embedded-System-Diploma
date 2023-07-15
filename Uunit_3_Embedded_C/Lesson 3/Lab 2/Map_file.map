@@ -1,0 +1,72 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00020000         xr
+sram             0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x08000000       0xf4
+ *(.vectors*)
+ .vectors       0x08000000       0x1c startup.o
+                0x08000000                vectors
+ *(.text*)
+ .text          0x0800001c       0x48 startup.o
+                0x0800001c                Rest_Handler
+                0x08000028                NMI_Handeler
+                0x08000034                H_Fault_Handler
+                0x08000040                MM_Fault_Handler
+                0x0800004c                Bus_Fault
+                0x08000058                Usage_Fault_Handler
+ .text          0x08000064       0x90 toggle.o
+                0x08000064                main
+
+.data           0x080000f4        0x0
+ .data          0x080000f4        0x0 startup.o
+ .data          0x080000f4        0x0 toggle.o
+
+.igot.plt       0x080000f4        0x0
+ .igot.plt      0x080000f4        0x0 startup.o
+
+.glue_7         0x080000f4        0x0
+ .glue_7        0x080000f4        0x0 linker stubs
+
+.glue_7t        0x080000f4        0x0
+ .glue_7t       0x080000f4        0x0 linker stubs
+
+.vfp11_veneer   0x080000f4        0x0
+ .vfp11_veneer  0x080000f4        0x0 linker stubs
+
+.v4_bx          0x080000f4        0x0
+ .v4_bx         0x080000f4        0x0 linker stubs
+
+.iplt           0x080000f4        0x0
+ .iplt          0x080000f4        0x0 startup.o
+
+.rel.dyn        0x080000f4        0x0
+ .rel.iplt      0x080000f4        0x0 startup.o
+
+.bss            0x20000000        0x4
+ *(.bss*)
+ .bss           0x20000000        0x0 startup.o
+ .bss           0x20000000        0x4 toggle.o
+                0x20000000                i
+LOAD startup.o
+LOAD toggle.o
+OUTPUT(toggle.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x55
+ .comment       0x00000000       0x55 startup.o
+                                 0x56 (size before relaxing)
+ .comment       0x00000055       0x56 toggle.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2d startup.o
+ .ARM.attributes
+                0x0000002d       0x2d toggle.o
