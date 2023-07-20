@@ -1,0 +1,1 @@
+ export PATH=/c/Program\ Files\ \(x86\)/Arm\ GNU\ Toolchain\ arm-none-eabi/12.2\ mpacbti-rel1/bin/:$PATH
