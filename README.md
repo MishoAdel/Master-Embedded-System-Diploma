@@ -2,7 +2,7 @@
 
 ## Contents
 
-### First Term ![image](https://progress-bar.dev/20/?title=In_progress)
+### First Term ![image](https://progress-bar.dev/100/?title=In_progress)
 
 - [Unit 1: Diploma Prerequisites] ![image](https://progress-bar.dev/100/?title=&color=bababa)
 - [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/100/)
