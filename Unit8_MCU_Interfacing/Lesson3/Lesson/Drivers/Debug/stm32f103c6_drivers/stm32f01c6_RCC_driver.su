@@ -1,0 +1,5 @@
+stm32f01c6_RCC_driver.c:14:6:MCAL_RCC_clock_update	16	static
+stm32f01c6_RCC_driver.c:49:10:MCAL_RCC_get_system_clock	16	static
+stm32f01c6_RCC_driver.c:84:10:MCAL_RCC_get_AHB_clock	8	static
+stm32f01c6_RCC_driver.c:95:10:MCAL_RCC_get_APB1_clock	8	static
+stm32f01c6_RCC_driver.c:106:10:MCAL_RCC_get_APB2_clock	8	static
